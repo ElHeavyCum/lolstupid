@@ -11,8 +11,6 @@ var fortunes = [
     "lol stinky"
 ];
 
-var beaches = ""
-
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
@@ -29,41 +27,41 @@ bot.on("message", function(message) {
 
   switch (args[0].toLowerCase()) {
 
-    case "ping":
+    case "user":
       message.channel.send("DON'T PING ME YOU FILTH.");
       break;
 
-    case "joe":
-      for(var i=0;i<5;i++) { message.channel.send("<@131986878109843456>") }
+    case "user":
+      for(var i=0;i<5;i++) { message.channel.send("<userid>") }
       message.channel.bulkDelete(6);
       break;
 
-    case "george":
-      for(var i=0;i<5;i++) { message.channel.send("<@109830381989031936>") }
+    case "user":
+      for(var i=0;i<5;i++) { message.channel.send("<userid>") }
       message.channel.bulkDelete(6);
       break;
 
-    case "karen":
-      for(var i=0;i<5;i++) { message.channel.send("<@!149659255182589955>") }
+    case "user":
+      for(var i=0;i<5;i++) { message.channel.send("<userid>") }
       message.channel.bulkDelete(6);
       break;
 
-    case "jack":
-      for(var i=0;i<5;i++) { message.channel.send("<@85592897386201088>") }
+    case "user":
+      for(var i=0;i<5;i++) { message.channel.send("<userid>") }
       message.channel.bulkDelete(6);
       break;
 
-    case "kiwi":
-      for(var i=0;i<5;i++) { message.channel.send("<@!107901739507666944>") }
+    case "user":
+      for(var i=0;i<5;i++) { message.channel.send("<userid>") }
       message.channel.bulkDelete(6);
       break;
 
-    case "money":
-      for(var i=0;i<5;i++) { message.channel.send("<@!107901739507666944> gimme money") }
+    case "user":
+      for(var i=0;i<5;i++) { message.channel.send("<userid> gimme money") }
       break;
 
-    case "mason":
-      for(var i=0;i<5;i++) { message.channel.send("<@!171043591592869896>") }
+    case "user":
+      for(var i=0;i<5;i++) { message.channel.send("<userid>") }
       message.channel.bulkDelete(6);
       break;
 
