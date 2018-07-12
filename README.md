@@ -1,0 +1,2 @@
+# lolstupid
+Discord bot
